@@ -7,7 +7,7 @@ const { Keyboard } = require('telegram-keyboard')
 const { exec } = require('child_process');
 
 
-const bot = new Telegraf("5267765835:AAHKQfCNazNLXFRXqI5vFQZe9Qp8r-JzQF8")
+const bot = new Telegraf("TOKEN")
 
 bot.command('start', (ctx) => {
   ctx.reply("Send me a URL and I'll send you a short URL");
